@@ -1,0 +1,23 @@
+$sideBarWidth: 13rem;
+$headerheight: 4.6rem;
+
+@mixin py($value) {
+   padding-top: $value;
+   padding-bottom: $value;
+}
+
+@mixin px($value) {
+   padding-left: $value;
+   padding-right: $value;
+}
+
+
+@mixin my($value) {
+   margin-top: $value;
+   margin-bottom: $value;
+}
+
+@mixin mx($value) {
+   margin-left: $value;
+   margin-right: $value;
+}

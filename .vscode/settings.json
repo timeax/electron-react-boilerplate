@@ -4,7 +4,7 @@
     ".prettierrc": "jsonc",
     ".eslintignore": "ignore"
   },
-  
+
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -26,5 +26,40 @@
     "test/**/__snapshots__": true,
     "package-lock.json": true,
     "*.{css,sass,scss}.d.ts": true
-  }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    ".eslintignore": true,
+    "**/.eslintrc.js": true,
+    ".vscode": true,
+    ".github": true,
+    ".erb": true,
+    "release": true,
+    ".editorconfig": true,
+    ".gitattributes": true,
+    "**/.gitignore": true,
+    "CHANGELOG.md": true,
+    "**/*.md": true,
+    "src/__tests__": true,
+    "node_modules": false,
+    "postcss.config.js": true,
+    "package-lock.json": true,
+    "tsconfig.json": true,
+    "package.json": false,
+    "tailwind.config.js": true,
+    "LICENSE": true,
+    "**/node_modules": true,
+    "tailwind": true
+  },
+  "explorerExclude.backup": {},
+  "eslint.enable": false
 }

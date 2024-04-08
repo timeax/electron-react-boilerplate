@@ -1,0 +1,42 @@
+.title {
+   font-size: 3em;
+   font-weight: 700;
+}
+
+
+.other {
+   font-size: medium;
+}
+
+.text {
+   font-size: 18px;
+}
+
+.main {
+   @include py(2px);
+   font-family: "Poppins", sans-serif;;
+}
+
+.small {
+   font-size: 13px;
+}
+
+.subtitle {
+   font-size: 1.8em;
+   font-weight: 600;
+}
+
+.header {
+   font-size: 1.5em;
+   font-weight: 600;
+}
+
+.subheader {
+   font-weight: 500;
+   font-size: 1.2em;
+}
+
+.label {
+   font-size: 18px;
+   font-weight: 500;
+}

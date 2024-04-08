@@ -1,0 +1,10 @@
+@import './util/colors';
+@import './util/root';
+
+:root {
+   /* Color list start */
+   @each $name, $value in $colors {
+       @include create-vars($value, '--color-'+$name);
+   }
+ /* Color list ends */
+}

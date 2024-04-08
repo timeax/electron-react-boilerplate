@@ -6,8 +6,11 @@ const root = createRoot(container);
 root.render(<App />);
 
 // calling IPC exposed from preload script
-window.electron.ipcRenderer.once('ipc-example', (arg) => {
-  // eslint-disable-next-line no-console
-  console.log(arg);
+window.api.ipcRenderer.once('ipc-example', (arg) => {
+   // eslint-disable-next-line no-console
+   console.log(arg);
 });
-window.electron.ipcRenderer.sendMessage('ipc-example', ['ping']);
+
+String.prototype.capitalise = function () {
+   return this.charAt(0).toUpperCase() + this.slice(1);
+};

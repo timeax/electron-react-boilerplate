@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   :root {
+      --color-text-light: #b9bcc5;
+      --color-text-active: #4c5064;
+      --color-text-default: #525766;
+      --color-text-dark: #31373a;
+      --color-text-white: #ffffff;
+      --color-black-default: #000000;
+      --color-primary-50: #f5f3ff;
+      --color-primary-100: #ede8ff;
+      --color-primary-200: #ddd5ff;
+      --color-primary-300: #c5b3ff;
+      --color-primary-400: #a888fd;
+      --color-primary-500: #8c58fa;
+      --color-primary-600: #7f35f2;
+      --color-primary-700: #752bdf;
+      --color-primary-800: #5d1dba;
+      --color-primary-900: #4e1a98;
+      --color-primary-950: #2f0e67;
+      --color-primary-default: #752bdf;
+      --color-primary-light: #c5b3ff;
+      --color-primary-dark: #4e1a98;
+      --color-secondary-50: #f4f7f7;
+      --color-secondary-100: #e3e9ea;
+      --color-secondary-200: #c9d4d8;
+      --color-secondary-300: #a4b6bc;
+      --color-secondary-400: #779099;
+      --color-secondary-500: #5c757e;
+      --color-secondary-600: #4f626b;
+      --color-secondary-700: #44525a;
+      --color-secondary-800: #3d474d;
+      --color-secondary-900: #363d43;
+      --color-secondary-950: #22282c;
+      --color-secondary-default: #3d474d;
+      --color-secondary-light: #a4b6bc;
+      --color-secondary-dark: #22282c;
+      --color-success-50: #eafff6;
+      --color-success-100: #cdfee8;
+      --color-success-200: #a0fad6;
+      --color-success-300: #63f2c0;
+      --color-success-400: #25e2a7;
+      --color-success-500: #00d79b;
+      --color-success-600: #00a477;
+      --color-success-700: #008363;
+      --color-success-800: #00674f;
+      --color-success-900: #005542;
+      --color-success-950: #003027;
+      --color-success-default: #00d79b;
+      --color-success-light: #63f2c0;
+      --color-success-dark: #00674f;
+      --color-warning-50: #fff5ed;
+      --color-warning-100: #ffe8d4;
+      --color-warning-200: #ffcda8;
+      --color-warning-300: #ffaa71;
+      --color-warning-400: #ff8445;
+      --color-warning-500: #fe5811;
+      --color-warning-600: #ef3d07;
+      --color-warning-700: #c62a08;
+      --color-warning-800: #9d230f;
+      --color-warning-900: #7e2010;
+      --color-warning-950: #440c06;
+      --color-warning-default: #ff8445;
+      --color-warning-light: #ffaa71;
+      --color-warning-dark: #7e2010;
+      --color-danger-50: #fff0f3;
+      --color-danger-100: #ffe2e9;
+      --color-danger-200: #ffcad7;
+      --color-danger-300: #ff9fb7;
+      --color-danger-400: #ff6991;
+      --color-danger-500: #ff4a7f;
+      --color-danger-600: #ed115c;
+      --color-danger-700: #c8084e;
+      --color-danger-800: #a80948;
+      --color-danger-900: #8f0c44;
+      --color-danger-950: #500121;
+      --color-danger-default: #ff4a7f;
+      --color-danger-light: #ff9fb7;
+      --color-danger-dark: #8f0c44;
+      --color-light-50: #f5f6fa;
+      --color-light-100: #e7e9f2;
+      --color-light-default: #f5f6fa;
+      --color-light-light: #ffffff;
+      --color-light-dark: #d4d8e9;
+      --color-grey-50: #f6f6f7;
+      --color-grey-100: #eeeff1;
+      --color-grey-200: #d8d9de;
+      --color-grey-300: #cdced4;
+      --color-grey-400: #b7b8c2;
+      --color-grey-500: #a4a4b0;
+      --color-grey-600: #8f8f9c;
+      --color-grey-700: #7c7b87;
+      --color-grey-800: #65656e;
+      --color-grey-900: #54545b;
+      --color-grey-950: #313135;
+      --color-grey-brown: #e5e5e5;
+      --color-grey-default: #d8d9de;
+      --color-grey-light: #f6f6f7;
+      --color-grey-dark: #313135;
+      --color-blue-50: #eff8ff;
+      --color-blue-100: #dff0ff;
+      --color-blue-200: #b8e2ff;
+      --color-blue-300: #78cbff;
+      --color-blue-400: #39b3ff;
+      --color-blue-500: #0696f1;
+      --color-blue-600: #0076ce;
+      --color-blue-700: #005ea7;
+      --color-blue-800: #02508a;
+      --color-blue-900: #084372;
+      --color-blue-950: #062a4b;
+      --color-blue-default: #39b3ff;
+      --color-blue-light: #b8e2ff;
+      --color-blue-dark: #005ea7;
+   }
+}
+
+body {
+   height: 100vh;
+}
+
+#root {
+   height: 100%
+}

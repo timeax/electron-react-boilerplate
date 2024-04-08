@@ -1,0 +1,42 @@
+// @import './utils/colors';
+
+.main {
+   right: 0px;
+   // border-bottom: 20px solid transparent;
+   top: -2rem;
+   // top: -100%;
+   transition: all 0.2s ease-in-out 0s;
+   background-color: rgba(189, 189, 189, 0.075);
+
+   &::after {
+      content: '';
+      padding: 8px 0px;
+      display: block;
+      width: 100%;
+      /* background-color: black; */
+      top: 100%;
+      position: absolute;
+      z-index: 100000000000000000000000000000000000000;
+   }
+   &:hover {
+      top: 0;
+   }
+}
+
+.button {
+   display: flex;
+   align-items: center;
+   padding: 0.7rem 0.9rem;
+
+   &:hover {
+      cursor: pointer;
+      background-color: $color-grey-100;
+   }
+}
+
+.close {
+   &:hover {
+      background-color: $color-danger-default;
+      color: $color-text-white;
+   }
+}

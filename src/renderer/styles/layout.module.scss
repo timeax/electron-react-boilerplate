@@ -1,0 +1,30 @@
+.sidebar {
+   width: $sideBarWidth;
+   position: fixed;
+   background-color: $color-black-default;
+   height: 100%;
+}
+
+.main {
+   display: flex;
+   width: 100%;
+   height: 100%;
+}
+
+.midcontent {
+   margin-left: $sideBarWidth;
+}
+
+.header {
+   max-height: $headerheight;
+   height: $headerheight;
+   border-bottom: 1px solid $color-grey-dark;
+}
+.sidebarLogo {
+   color: $color-light-default;
+   display: flex;
+   align-items: center;
+   svg {
+      font-size: 35px;
+   }
+}
